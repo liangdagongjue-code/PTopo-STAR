@@ -1,0 +1,13 @@
+{
+  "complete_shards": 40,
+  "expected_shards": 40,
+  "scalar_prediction_rows": 1715340,
+  "curve_metric_rows": 857670,
+  "bootstrap_replicates": 10000,
+  "inference_unit": "held-out topology family with physical-sample resampling",
+  "algorithm_repetitions": {
+    "pretraining_seeds": 5,
+    "support_repeats": 20,
+    "note": "algorithmic repetitions are averaged within physical samples and not treated as independent experiments"
+  }
+}

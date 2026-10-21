@@ -1,0 +1,41 @@
+held_out_family,held_out_name,seed,device,completed_variants,strict_geometry_unseen,maximum_held_out_pretraining_weight
+0,Schoen Gyroid,20260901,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+0,Schoen Gyroid,20260902,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+0,Schoen Gyroid,20260903,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+0,Schoen Gyroid,20260904,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+0,Schoen Gyroid,20260905,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+1,Schwarz Diamond,20260901,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+1,Schwarz Diamond,20260902,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+1,Schwarz Diamond,20260903,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+1,Schwarz Diamond,20260904,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+1,Schwarz Diamond,20260905,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+2,Schwarz Primitive,20260901,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+2,Schwarz Primitive,20260902,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+2,Schwarz Primitive,20260903,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+2,Schwarz Primitive,20260904,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+2,Schwarz Primitive,20260905,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+3,Schoen IWP,20260901,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+3,Schoen IWP,20260902,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+3,Schoen IWP,20260903,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+3,Schoen IWP,20260904,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+3,Schoen IWP,20260905,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+4,Neovius,20260901,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+4,Neovius,20260902,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+4,Neovius,20260903,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+4,Neovius,20260904,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+4,Neovius,20260905,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+5,Fischer-Koch S,20260901,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+5,Fischer-Koch S,20260902,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+5,Fischer-Koch S,20260903,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+5,Fischer-Koch S,20260904,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+5,Fischer-Koch S,20260905,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+6,Schoen FRD,20260901,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+6,Schoen FRD,20260902,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+6,Schoen FRD,20260903,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+6,Schoen FRD,20260904,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+6,Schoen FRD,20260905,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+7,PMY,20260901,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+7,PMY,20260902,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+7,PMY,20260903,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+7,PMY,20260904,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0
+7,PMY,20260905,cuda,masked_only|periodic_only|ptopo_ssl|topology_only,True,0.0

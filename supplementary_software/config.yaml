@@ -1,0 +1,23 @@
+seeds: [20260901, 20260902, 20260903, 20260904, 20260905]
+support_seed: 91731
+grid_size: 32
+wall_thickness: 0.5
+synthetic_pretrain_samples: 2048
+pretrain_epochs: 50
+batch_size: 16
+learning_rate: 0.001
+weight_decay: 0.0001
+topology_loss_weight: 0.5
+periodic_consistency_weight: 0.05
+mask_fraction: 0.45
+boundary_mask_fraction: 0.5
+threads: 2
+mixed_precision: true
+variants: [masked_only, periodic_only, topology_only, ptopo_ssl]
+few_shots: [0, 1, 2, 4]
+support_repeats: 20
+minimum_test_samples: 3
+ridge_alphas: [0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]
+residual_ensemble_size: 8
+inner_residual_ensemble_size: 4
+bootstrap_replicates: 10000

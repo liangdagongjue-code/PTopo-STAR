@@ -1,0 +1,13 @@
+comparison_family,task,shots,method,reference,effect_nrmse_method_minus_reference,ci95_low,ci95_high,family_exact_sign_flip_p,holm_p,families,physical_samples
+performance,energy_dissipation,1|2|4,ptopo_star,explicit_ridge,-0.290358211043852,-0.5162796280367026,-0.11574629784586074,0.0078125,0.0234375,8,274
+performance_descriptive,energy_dissipation,1,ptopo_star,explicit_ridge,-0.3130159156907883,-0.5720091536615108,-0.1140308117481067,,,8,274
+performance_descriptive,energy_dissipation,2,ptopo_star,explicit_ridge,-0.2844485985280844,-0.5052957322811126,-0.11116012661194322,,,8,274
+performance_descriptive,energy_dissipation,4,ptopo_star,explicit_ridge,-0.2633740326059047,-0.4532709925813616,-0.10786867321733551,,,8,274
+mechanism,energy_dissipation,1|2|4,ptopo_fusion,masked_only_fusion,-0.07578011858167927,-0.1276765067678251,-0.023737521219561148,0.03125,0.0625,8,274
+mechanism_descriptive,energy_dissipation,1,ptopo_fusion,masked_only_fusion,-0.08236346301084296,-0.14624104186676226,-0.02113188792874188,,,8,274
+mechanism_descriptive,energy_dissipation,2,ptopo_fusion,masked_only_fusion,-0.07407940223919676,-0.1255372258403033,-0.021044457183773797,,,8,274
+mechanism_descriptive,energy_dissipation,4,ptopo_fusion,masked_only_fusion,-0.06856174603810336,-0.11133299005657218,-0.02585138548523519,,,8,274
+attenuation,energy_dissipation,1|2|4,ptopo_star,ptopo_residual_ungated,-0.0017126633945557198,-0.005800338249718012,0.0017899926495463267,0.453125,0.453125,8,274
+attenuation_descriptive,energy_dissipation,1,ptopo_star,ptopo_residual_ungated,-0.0028638384918774316,-0.01025611114632623,0.0027069996071601723,,,8,274
+attenuation_descriptive,energy_dissipation,2,ptopo_star,ptopo_residual_ungated,-0.002914643198154085,-0.009505250072617462,0.0018064700318564735,,,8,274
+attenuation_descriptive,energy_dissipation,4,ptopo_star,ptopo_residual_ungated,0.000908329250349243,-0.000946595468253338,0.003533006238130591,,,8,274

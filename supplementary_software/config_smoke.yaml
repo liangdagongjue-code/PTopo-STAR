@@ -1,0 +1,23 @@
+seeds: [11]
+support_seed: 17
+grid_size: 16
+wall_thickness: 0.5
+synthetic_pretrain_samples: 16
+pretrain_epochs: 1
+batch_size: 8
+learning_rate: 0.001
+weight_decay: 0.0001
+topology_loss_weight: 0.5
+periodic_consistency_weight: 0.05
+mask_fraction: 0.25
+boundary_mask_fraction: 1.0
+threads: 2
+mixed_precision: false
+variants: [masked_only, ptopo_ssl]
+few_shots: [1]
+support_repeats: 2
+minimum_test_samples: 3
+ridge_alphas: [0.01, 1.0, 100.0]
+residual_ensemble_size: 3
+inner_residual_ensemble_size: 2
+bootstrap_replicates: 100

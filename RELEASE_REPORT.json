@@ -1,0 +1,206 @@
+{
+  "version": "1.0.0",
+  "date": "2026-10-21",
+  "models": 160,
+  "feature_archives": 200,
+  "curve_archives": 40,
+  "scalar_prediction_rows": 1715340,
+  "curve_metric_rows": 857670,
+  "checks": [
+    {
+      "check": "160 models",
+      "passed": true
+    },
+    {
+      "check": "200 embedding archives",
+      "passed": true
+    },
+    {
+      "check": "40 curve archives",
+      "passed": true
+    },
+    {
+      "check": "Model and feature bytes unchanged",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold0_seed20260901_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold0_seed20260902_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold0_seed20260903_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold0_seed20260904_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold0_seed20260905_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold1_seed20260901_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold1_seed20260902_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold1_seed20260903_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold1_seed20260904_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold1_seed20260905_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold2_seed20260901_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold2_seed20260902_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold2_seed20260903_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold2_seed20260904_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold2_seed20260905_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold3_seed20260901_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold3_seed20260902_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold3_seed20260903_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold3_seed20260904_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold3_seed20260905_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold4_seed20260901_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold4_seed20260902_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold4_seed20260903_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold4_seed20260904_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold4_seed20260905_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold5_seed20260901_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold5_seed20260902_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold5_seed20260903_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold5_seed20260904_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold5_seed20260905_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold6_seed20260901_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold6_seed20260902_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold6_seed20260903_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold6_seed20260904_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold6_seed20260905_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold7_seed20260901_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold7_seed20260902_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold7_seed20260903_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold7_seed20260904_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "Prediction arrays unchanged: fold7_seed20260905_curve_predictions_repeat0.npz",
+      "passed": true
+    },
+    {
+      "check": "scalar_predictions.csv.gz: all retained data unchanged",
+      "passed": true
+    },
+    {
+      "check": "curve_metrics.csv.gz: all retained data unchanged",
+      "passed": true
+    },
+    {
+      "check": "All Python sources parse",
+      "passed": true
+    },
+    {
+      "check": "No raw source archive or editorial files",
+      "passed": true
+    }
+  ],
+  "passed": 48,
+  "total": 48,
+  "publication_status": "Prepared for the GitHub v1.0.0 release; no DOI assigned."
+}

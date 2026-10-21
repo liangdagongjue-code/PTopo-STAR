@@ -1,0 +1,320 @@
+{
+  "transformed_files": [
+    {
+      "path": "formal_results/aggregate/curve_metrics.csv.gz",
+      "omitted_fields": [
+        "official_energy",
+        "true_peak"
+      ]
+    },
+    {
+      "path": "formal_results/aggregate/scalar_predictions.csv.gz",
+      "omitted_fields": [
+        "y_true",
+        "error"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold0_seed20260901_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold0_seed20260902_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold0_seed20260903_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold0_seed20260904_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold0_seed20260905_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold1_seed20260901_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold1_seed20260902_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold1_seed20260903_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold1_seed20260904_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold1_seed20260905_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold2_seed20260901_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold2_seed20260902_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold2_seed20260903_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold2_seed20260904_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold2_seed20260905_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold3_seed20260901_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold3_seed20260902_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold3_seed20260903_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold3_seed20260904_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold3_seed20260905_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold4_seed20260901_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold4_seed20260902_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold4_seed20260903_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold4_seed20260904_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold4_seed20260905_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold5_seed20260901_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold5_seed20260902_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold5_seed20260903_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold5_seed20260904_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold5_seed20260905_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold6_seed20260901_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold6_seed20260902_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold6_seed20260903_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold6_seed20260904_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold6_seed20260905_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold7_seed20260901_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold7_seed20260902_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold7_seed20260903_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold7_seed20260904_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "formal_results/downstream_shards/fold7_seed20260905_curve_predictions_repeat0.npz",
+      "omitted_fields": [
+        "truth",
+        "strain"
+      ]
+    },
+    {
+      "path": "derived_data/figure4/selected_stress_traces.csv",
+      "omitted_fields": [
+        "strain",
+        "measured_stress_mpa"
+      ]
+    }
+  ],
+  "excluded_empty_or_internal_files": [
+    {
+      "path": "derived_data/citation_locator_audit.json",
+      "reason": "Internal manuscript/historical package audit."
+    },
+    {
+      "path": "derived_data/formal_output_audit.json",
+      "reason": "Internal manuscript/historical package audit."
+    },
+    {
+      "path": "derived_data/formal_results_digest.json",
+      "reason": "Internal manuscript/historical package audit."
+    }
+  ],
+  "original_data_source_sha256": "c983f31ce9c32c106ba78b068c6e7a83369a1c87bf89baaeafcfbb0f8f3386b2"
+}

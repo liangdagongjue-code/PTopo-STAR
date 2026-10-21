@@ -1,0 +1,25 @@
+task,method_star,held_out_family,held_out_name,nrmse_star,method_explicit,nrmse_explicit,delta_nrmse
+energy_dissipation,ptopo_star,0,Schoen Gyroid,0.49005811891332723,explicit_ridge,0.9717631172820452,-0.481704998368718
+energy_dissipation,ptopo_star,1,Schwarz Diamond,0.3433666657889904,explicit_ridge,0.3586135163679062,-0.015246850578915838
+energy_dissipation,ptopo_star,2,Schwarz Primitive,0.47881712083110006,explicit_ridge,0.6383935032848457,-0.1595763824537456
+energy_dissipation,ptopo_star,3,Schoen IWP,0.286722106173845,explicit_ridge,0.48490884898710657,-0.19818674281326154
+energy_dissipation,ptopo_star,4,Neovius,0.2746865868026766,explicit_ridge,1.0011242953652209,-0.7264377085625442
+energy_dissipation,ptopo_star,5,Fischer-Koch S,0.9650810951934288,explicit_ridge,1.0575461407735662,-0.09246504558013746
+energy_dissipation,ptopo_star,6,Schoen FRD,0.5476231186911681,explicit_ridge,0.903520439714624,-0.35589732102345595
+energy_dissipation,ptopo_star,7,PMY,0.5760789583982412,explicit_ridge,0.6882115511128685,-0.11213259271462728
+peak_stress,ptopo_star,0,Schoen Gyroid,0.6863860050385614,explicit_ridge,1.0964098591670086,-0.4100238541284472
+peak_stress,ptopo_star,1,Schwarz Diamond,0.3357079202780784,explicit_ridge,0.4904520455590755,-0.15474412528099712
+peak_stress,ptopo_star,2,Schwarz Primitive,0.5729296660932447,explicit_ridge,0.8431267979930107,-0.270197131899766
+peak_stress,ptopo_star,3,Schoen IWP,0.3776572761473669,explicit_ridge,0.6196161717448887,-0.24195889559752182
+peak_stress,ptopo_star,4,Neovius,0.37878602730690547,explicit_ridge,1.2104424735780703,-0.8316564462711649
+peak_stress,ptopo_star,5,Fischer-Koch S,0.844947489698146,explicit_ridge,0.9582924185074496,-0.11334492880930358
+peak_stress,ptopo_star,6,Schoen FRD,0.482238587927843,explicit_ridge,0.7600740548549694,-0.27783546692712635
+peak_stress,ptopo_star,7,PMY,0.5172082735779889,explicit_ridge,0.6272976130159347,-0.11008933943794574
+stress_curve,ptopo_star,0,Schoen Gyroid,0.340454635754982,explicit_ridge,0.6048956442199311,-0.2644410084649491
+stress_curve,ptopo_star,1,Schwarz Diamond,0.20177029865766838,explicit_ridge,0.2418258723954747,-0.04005557373780633
+stress_curve,ptopo_star,2,Schwarz Primitive,0.3283972651372547,explicit_ridge,0.5149992998024497,-0.18660203466519504
+stress_curve,ptopo_star,3,Schoen IWP,0.1853623159049793,explicit_ridge,0.31078019764476966,-0.12541788173979035
+stress_curve,ptopo_star,4,Neovius,0.19151057805096047,explicit_ridge,0.7223594081785608,-0.5308488301276003
+stress_curve,ptopo_star,5,Fischer-Koch S,0.48644500122403955,explicit_ridge,0.5874354998452987,-0.1009904986212592
+stress_curve,ptopo_star,6,Schoen FRD,0.2879130175386111,explicit_ridge,0.44148151844284106,-0.15356850090422997
+stress_curve,ptopo_star,7,PMY,0.2856133651222908,explicit_ridge,0.38452767120744075,-0.09891430608514995

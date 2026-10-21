@@ -1,0 +1,9 @@
+Copyright (c) 2026 The PTopo-STAR authors.
+
+The authors' data, model parameters, figures and documentation included in this
+deposit are licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Software files (*.py and software configurations) are covered by LICENSE_CODE.txt.
+The separately downloaded experimental dataset is NOT licensed by this notice.
+Its original creators, source and version are documented in THIRD_PARTY.txt.

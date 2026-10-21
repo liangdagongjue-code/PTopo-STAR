@@ -1,0 +1,6047 @@
+{
+  "date": "2026-10-21",
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "scope": "The upload package was joined with the pinned upstream data in a separate working copy. No neural network retraining was performed.",
+  "source_archive_sha256": "c983f31ce9c32c106ba78b068c6e7a83369a1c87bf89baaeafcfbb0f8f3386b2",
+  "restoration": {
+    "date": "2026-10-21",
+    "scope": "Fixed upstream source joined to the public package; compared with the frozen original outputs.",
+    "checks": [
+      {
+        "check": "Full curve archive restored: fold0_seed20260901_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold0_seed20260902_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold0_seed20260903_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold0_seed20260904_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold0_seed20260905_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold1_seed20260901_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold1_seed20260902_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold1_seed20260903_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold1_seed20260904_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold1_seed20260905_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold2_seed20260901_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold2_seed20260902_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold2_seed20260903_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold2_seed20260904_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold2_seed20260905_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold3_seed20260901_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold3_seed20260902_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold3_seed20260903_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold3_seed20260904_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold3_seed20260905_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold4_seed20260901_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold4_seed20260902_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold4_seed20260903_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold4_seed20260904_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold4_seed20260905_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold5_seed20260901_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold5_seed20260902_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold5_seed20260903_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold5_seed20260904_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold5_seed20260905_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold6_seed20260901_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold6_seed20260902_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold6_seed20260903_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold6_seed20260904_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold6_seed20260905_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold7_seed20260901_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold7_seed20260902_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold7_seed20260903_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold7_seed20260904_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Full curve archive restored: fold7_seed20260905_curve_predictions_repeat0.npz",
+        "passed": true,
+        "detail": null
+      },
+      {
+        "check": "Complete table restored: scalar_predictions.csv.gz",
+        "passed": true,
+        "detail": {
+          "rows": 1715340,
+          "max_abs_difference": 1.3322676295501878e-15
+        }
+      },
+      {
+        "check": "Complete table restored: curve_metrics.csv.gz",
+        "passed": true,
+        "detail": {
+          "rows": 857670,
+          "max_abs_difference": 4.440892098500626e-16
+        }
+      },
+      {
+        "check": "Selected Figure 4 curves restored",
+        "passed": true,
+        "detail": {
+          "rows": 960
+        }
+      }
+    ],
+    "passed": 43,
+    "total": 43
+  },
+  "numerical": {
+    "checks": [
+      {
+        "check": "160 original formal models recovered",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "200 learned and random embeddings recovered",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "40 original formal curve archives recovered",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Checkpoint zip CRC",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold0_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold0_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold0_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold0_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold0_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold0_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold0_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold0_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold0_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold0_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold0_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold0_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold0_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold0_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold0_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold1_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold1_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold1_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold1_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold1_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold1_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold1_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold1_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold1_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold1_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold1_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold1_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold1_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold1_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold1_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold2_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold2_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold2_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold2_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold2_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold2_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold2_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold2_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold2_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold2_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold2_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold2_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold2_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold2_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold2_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold3_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold3_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold3_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold3_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold3_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold3_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold3_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold3_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold3_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold3_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold3_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold3_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold3_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold3_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold3_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold4_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold4_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold4_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold4_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold4_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold4_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold4_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold4_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold4_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold4_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold4_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold4_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold4_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold4_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold4_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold5_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold5_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold5_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold5_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold5_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold5_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold5_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold5_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold5_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold5_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold5_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold5_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold5_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold5_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold5_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold6_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold6_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold6_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold6_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold6_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold6_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold6_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold6_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold6_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold6_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold6_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold6_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold6_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold6_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold6_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold7_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold7_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold7_seed20260901_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold7_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold7_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold7_seed20260902_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold7_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold7_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold7_seed20260903_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold7_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold7_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold7_seed20260904_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve archive schema fold7_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Finite curve archive fold7_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Curve array shape fold7_seed20260905_curve_predictions_repeat0.npz",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "274 unique physical traces recovered",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "All 274 energy endpoints reproduced from recovered traces",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Formal scalar prediction row count",
+        "pass": true,
+        "detail": 1715340
+      },
+      {
+        "check": "Formal curve-metric row count",
+        "pass": true,
+        "detail": 857670
+      },
+      {
+        "check": "All scalar run NRMSE values rebuilt",
+        "pass": true,
+        "detail": {
+          "rows": 53680,
+          "max_abs_difference": 8.881784197001252e-16
+        }
+      },
+      {
+        "check": "All curve run NRMSE values rebuilt",
+        "pass": true,
+        "detail": {
+          "rows": 26840,
+          "max_abs_difference": 8.881784197001252e-16
+        }
+      },
+      {
+        "check": "Remote aggregate matches handoff family_metrics.csv",
+        "pass": true,
+        "detail": {
+          "rows": 1056,
+          "numeric_columns": 6
+        }
+      },
+      {
+        "check": "Remote aggregate matches handoff summary_metrics.csv",
+        "pass": true,
+        "detail": {
+          "rows": 132,
+          "numeric_columns": 6
+        }
+      },
+      {
+        "check": "Remote aggregate matches handoff summary_family_bootstrap.csv",
+        "pass": true,
+        "detail": {
+          "rows": 132,
+          "numeric_columns": 5
+        }
+      },
+      {
+        "check": "Remote aggregate matches handoff inference.csv",
+        "pass": true,
+        "detail": {
+          "rows": 12,
+          "numeric_columns": 7
+        }
+      },
+      {
+        "check": "Remote aggregate matches handoff negative_transfer.csv",
+        "pass": true,
+        "detail": {
+          "rows": 120,
+          "numeric_columns": 4
+        }
+      },
+      {
+        "check": "Primary paired inference reproduced ptopo_star vs explicit_ridge",
+        "pass": true,
+        "detail": [
+          -0.290358211043852,
+          -0.5162796280367026,
+          -0.11574629784586071,
+          0.0078125
+        ]
+      },
+      {
+        "check": "Primary paired inference reproduced ptopo_fusion vs masked_only_fusion",
+        "pass": true,
+        "detail": [
+          -0.07578011858167927,
+          -0.12767650676782508,
+          -0.023737521219561148,
+          0.03125
+        ]
+      },
+      {
+        "check": "Primary paired inference reproduced ptopo_star vs ptopo_residual_ungated",
+        "pass": true,
+        "detail": [
+          -0.0017126633945557198,
+          -0.005800338249718061,
+          0.001789992649546346,
+          0.453125
+        ]
+      },
+      {
+        "check": "All 120 negative-transfer summaries reproduced",
+        "pass": true,
+        "detail": 120
+      },
+      {
+        "check": "Figure 4 regenerated from formal results",
+        "pass": true,
+        "detail": {
+          "gate_points": 274,
+          "plotted_curve_rows": 960
+        }
+      },
+      {
+        "check": "All 200 embedding archives contain finite 274 by 64 features",
+        "pass": true,
+        "detail": null
+      },
+      {
+        "check": "Scalar squared errors match recorded predictions",
+        "pass": true,
+        "detail": 1.0658141036401503e-14
+      },
+      {
+        "check": "Scalar absolute errors match recorded predictions",
+        "pass": true,
+        "detail": 2.220446049250313e-15
+      },
+      {
+        "check": "Every archived stress prediction matches a metric record",
+        "pass": true,
+        "detail": 31200
+      },
+      {
+        "check": "Curve rmse reproduced from float32 archived predictions",
+        "pass": true,
+        "detail": 2.4343335791598975e-08
+      },
+      {
+        "check": "Curve mae reproduced from float32 archived predictions",
+        "pass": true,
+        "detail": 9.328751993109563e-09
+      }
+    ],
+    "passed": 146,
+    "total": 146,
+    "paired_inference": [
+      {
+        "method": "ptopo_star",
+        "reference": "explicit_ridge",
+        "effect": -0.290358211043852,
+        "ci95": [
+          -0.5162796280367026,
+          -0.11574629784586071
+        ],
+        "exact_p": 0.0078125,
+        "holm_p": 0.0234375
+      },
+      {
+        "method": "ptopo_fusion",
+        "reference": "masked_only_fusion",
+        "effect": -0.07578011858167927,
+        "ci95": [
+          -0.12767650676782508,
+          -0.023737521219561148
+        ],
+        "exact_p": 0.03125,
+        "holm_p": 0.0625
+      },
+      {
+        "method": "ptopo_star",
+        "reference": "ptopo_residual_ungated",
+        "effect": -0.0017126633945557198,
+        "ci95": [
+          -0.005800338249718061,
+          0.001789992649546346
+        ],
+        "exact_p": 0.453125,
+        "holm_p": 0.453125
+      }
+    ],
+    "formal_curve_archive_rows": 31200,
+    "method": "Recovered outputs were re-aggregated; no model training or new physical experiment was performed."
+  },
+  "independent": {
+    "checks": [
+      {
+        "check": "Disjoint and exhaustive split (0, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (0, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (0, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (1, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (1, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (2, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (2, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (3, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (3, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (4, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (4, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (5, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (5, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (6, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (6, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 0, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 1, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 2, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 0)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 1)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 2)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 3)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 4)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 5)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 6)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 7)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 8)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 9)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 10)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 11)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 12)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 13)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 14)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 15)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 16)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 17)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 18)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Disjoint and exhaustive split (7, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Deterministic support (7, 4, 19)",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "488 unique splits",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Scalar prediction keys unique",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Curve metric keys unique",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "All scalar methods use the declared test samples",
+        "pass_": true,
+        "detail": 53680
+      },
+      {
+        "check": "All scalar prediction records have the correct family",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "All curve methods use the declared test samples",
+        "pass_": true,
+        "detail": 26840
+      },
+      {
+        "check": "All curve prediction records have the correct family",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Scalar truths constant across methods and repetitions",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Scalar gated predictions satisfy the stated residual equation",
+        "pass_": true,
+        "detail": 1.3322676295501878e-15
+      },
+      {
+        "check": "Scalar ungated residual equals ordinary PTopo fusion",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Saved gates match source-selected coefficients",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "Independent primary paired effect",
+        "pass_": true,
+        "detail": null
+      },
+      {
+        "check": "All paired family effects favour PTopo-STAR",
+        "pass_": true,
+        "detail": [
+          -0.4923001851232516,
+          -0.008509800191288497,
+          -0.1296509211031125,
+          -0.1939030042871684,
+          -0.9364903273211752,
+          -0.09047791190221555,
+          -0.36056027793568723,
+          -0.11097326048691769
+        ]
+      }
+    ],
+    "passed": 989,
+    "total": 989,
+    "family_counts": {
+      "0": 12,
+      "1": 15,
+      "2": 9,
+      "3": 22,
+      "4": 8,
+      "5": 124,
+      "6": 44,
+      "7": 40
+    },
+    "family_omission_range": [
+      -0.3306222697370754,
+      -0.19805362300423449
+    ],
+    "gates": {
+      "energy_dissipation": {
+        "mean": 0.9960002151735384,
+        "median": 1.0,
+        "fraction_below_0_9": 0.009556135770234987,
+        "records": 76600
+      },
+      "peak_stress": {
+        "mean": 0.9973264311083697,
+        "median": 1.0,
+        "fraction_below_0_9": 0.007571801566579634,
+        "records": 76600
+      },
+      "stress_curve": {
+        "mean": 0.997562208571638,
+        "median": 1.0,
+        "fraction_below_0_9": 0.0050783289817232374,
+        "records": 76600
+      }
+    },
+    "study_status": "Reanalysis of existing formal predictions; no new training."
+  },
+  "training_layout_preparation": "Passed: training code copied and 274 input records extracted. Training was not started."
+}

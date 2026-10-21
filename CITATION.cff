@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the PTopo-STAR GitHub v1.0.0 release and the upstream experimental dataset."
+title: "PTopo-STAR: data and code for periodic-topology self-supervised learning of TPMS mechanical responses"
+type: dataset
+version: 1.0.0
+authors:
+  - family-names: "Liang"
+    given-names: "Zhanhao"
+  - family-names: "Chen"
+    given-names: "Shenggui"
+  - family-names: "Kadyrkulova"
+    given-names: "Kyial"
+  - family-names: "Kudakeeva"
+    given-names: "Gulida"
+  - family-names: "Qin"
+    given-names: "Yu"
+  - family-names: "Yang"
+    given-names: "Jie"
+  - family-names: "Arabboev"
+    given-names: "Mukhriddin"
+  - family-names: "Begmatov"
+    given-names: "Shohruh"
+url: "https://github.com/liangdagongjue-code/PTopo-STAR/releases/tag/v1.0.0"
+repository-code: "https://github.com/liangdagongjue-code/PTopo-STAR"
+date-released: 2026-10-21

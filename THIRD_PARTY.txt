@@ -1,0 +1,31 @@
+Experimental observations
+Creators: Maxine Perroni-Scharf, Zachary Ferguson, Thomas Butruille,
+Carlos M. Portela, and Mina Konakovic Lukovic.
+Dataset: Hyperelastic TPMS Metamaterial Dataset.
+Source: https://github.com/maxineAPS/energy-dissipation-metamaterial-dataset
+Pinned commit: ce432eda188c2eb0b470cf0203442d89c129eaa6
+Paper DOI: https://doi.org/10.1145/3721238.3730759
+dataset.zip SHA-256: c983f31ce9c32c106ba78b068c6e7a83369a1c87bf89baaeafcfbb0f8f3386b2
+
+The source README describes the dataset as open-source and requests citation,
+but the inspected repository and dataset archive contain no explicit licence
+file. This deposit does not assign a licence to those third-party observations
+or redistribute their raw JSON, images, stress/strain arrays or response labels.
+tools/restore_experimental_data.py obtains the pinned archive directly from its
+original public source and joins observations by sample identifier for local use.
+Restored working copies are not part of this deposit's licensed contents.
+
+Sample identifiers retain the source naming scheme so results can be joined.
+Metrics, predictions and extracted representations are this study's outputs.
+Scientific plots may compare predictions against properly attributed source
+observations. The original experiments were performed by the dataset creators.
+
+Geometry reference
+The primitive definitions and ordering follow TPMeSh and the source study:
+https://github.com/zfergus/TPMeSh/tree/10bd8dec6be9ebbabeecaf6130f23e05819ca8c1
+TPMeSh is not bundled. The included periodic-grid implementation provides the
+mathematical cell fields and descriptors used in PTopo-STAR, not TPMeSh meshes.
+
+Dependencies
+NumPy, pandas, PyTorch, SciPy, scikit-learn, Pydantic, PyYAML, Matplotlib,
+PyMuPDF and Pillow are installed separately under their respective licences.

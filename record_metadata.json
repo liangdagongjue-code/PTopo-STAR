@@ -1,0 +1,83 @@
+{
+  "title": "PTopo-STAR: data and code for periodic-topology self-supervised learning of TPMS mechanical responses",
+  "resource_type": "Dataset",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "given_name": "Zhanhao",
+      "family_name": "Liang",
+      "affiliations": [
+        "School of Art and Design, Guangzhou Polytechnic University, Guangzhou 511483, China",
+        "Department of Automation and Control, Kyrgyz State Technical University named after I. Razzakov, Bishkek 720064, Kyrgyzstan"
+      ]
+    },
+    {
+      "given_name": "Shenggui",
+      "family_name": "Chen",
+      "affiliations": [
+        "School of Art and Design, Guangzhou Polytechnic University, Guangzhou 511483, China"
+      ]
+    },
+    {
+      "given_name": "Kyial",
+      "family_name": "Kadyrkulova",
+      "affiliations": [
+        "Department of Automation and Control, Kyrgyz State Technical University named after I. Razzakov, Bishkek 720064, Kyrgyzstan"
+      ]
+    },
+    {
+      "given_name": "Gulida",
+      "family_name": "Kudakeeva",
+      "affiliations": [
+        "Department of Automation and Control, Kyrgyz State Technical University named after I. Razzakov, Bishkek 720064, Kyrgyzstan"
+      ]
+    },
+    {
+      "given_name": "Yu",
+      "family_name": "Qin",
+      "affiliations": [
+        "School of Art and Design, Guangzhou Polytechnic University, Guangzhou 511483, China"
+      ]
+    },
+    {
+      "given_name": "Jie",
+      "family_name": "Yang",
+      "affiliations": [
+        "School of Art and Design, Guangzhou Polytechnic University, Guangzhou 511483, China"
+      ]
+    },
+    {
+      "given_name": "Mukhriddin",
+      "family_name": "Arabboev",
+      "affiliations": [
+        "Faculty of Software Engineering, Tashkent University of Information Technologies named after Muhammad al-Khwarizmi, Tashkent 100084, Uzbekistan"
+      ]
+    },
+    {
+      "given_name": "Shohruh",
+      "family_name": "Begmatov",
+      "affiliations": [
+        "Faculty of Software Engineering, Tashkent University of Information Technologies named after Muhammad al-Khwarizmi, Tashkent 100084, Uzbekistan"
+      ]
+    }
+  ],
+  "description": "Research data and software supporting \"Periodic-topology self-supervised learning for few-shot mechanical prediction of additively manufactured TPMS metamaterials\". The package contains 160 pretrained encoder checkpoints, 200 feature archives, 40 archives of predicted stress traces for support draw 0, scalar predictions across all runs, curve-error metrics across all runs, source-selected gate parameters, support/test splits, training histories, aggregated results, publication figure assets, and analysis and training code. The study uses 274 public compression designs, eight dominant TPMS families, five encoder seeds, and 0/1/2/4 target support observations. The original experimental observations are obtained separately from the pinned upstream dataset. A download and reconstruction script verifies the source checksum and restores the experimental columns for local verification. Predictions and learned parameters are preserved. Full stress traces were archived only for support draw 0; scalar predictions and curve metrics cover all runs. Data, model parameters, figures and documentation are licensed under CC BY 4.0; software is licensed under MIT. These licences do not apply to the separately obtained upstream dataset.",
+  "keywords": [
+    "TPMS",
+    "mechanical metamaterials",
+    "self-supervised learning",
+    "few-shot learning",
+    "periodic topology",
+    "PTopo-STAR"
+  ],
+  "licenses": {
+    "data_models_figures_documentation": "CC-BY-4.0",
+    "software": "MIT"
+  },
+  "related_source_dataset": "https://github.com/maxineAPS/energy-dissipation-metamaterial-dataset/tree/ce432eda188c2eb0b470cf0203442d89c129eaa6",
+  "source_publication_doi": "10.1145/3721238.3730759",
+  "funding": "This research was supported by the Guangdong Province Universities and Colleges Pearl River Scholar Funded Scheme (0102202300037); the key scientific research platforms and projects of Guangdong universities (2023WCXTD035, 2024WTSCX267, 2023ZDZX3072); the teaching reform project of Guangzhou universities (2025WLJSXY001); and the research platforms and projects of Guangzhou Polytechnic University (2026KYPT02).",
+  "repository": "https://github.com/liangdagongjue-code/PTopo-STAR",
+  "release": "https://github.com/liangdagongjue-code/PTopo-STAR/releases/tag/v1.0.0",
+  "publisher": "GitHub"
+}

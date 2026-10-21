@@ -1,0 +1,59 @@
+{
+  "physical_designs": 274,
+  "all_trace_points": [
+    120
+  ],
+  "maximum_absolute_energy_difference": 7.34447962447149e-08,
+  "maximum_relative_energy_difference": 2.0075793618896057e-07,
+  "energy_range_mj_m3": [
+    0.0047400264125524874,
+    0.4359753781630893
+  ],
+  "peak_stress_range_mpa": [
+    0.17835575342178345,
+    5.1657891273498535
+  ],
+  "family_counts": [
+    {
+      "dominant_family": 0,
+      "dominant_name": "Schoen Gyroid",
+      "physical_designs": 12
+    },
+    {
+      "dominant_family": 1,
+      "dominant_name": "Schwarz Diamond",
+      "physical_designs": 15
+    },
+    {
+      "dominant_family": 2,
+      "dominant_name": "Schwarz Primitive",
+      "physical_designs": 9
+    },
+    {
+      "dominant_family": 3,
+      "dominant_name": "Schoen IWP",
+      "physical_designs": 22
+    },
+    {
+      "dominant_family": 4,
+      "dominant_name": "Neovius",
+      "physical_designs": 8
+    },
+    {
+      "dominant_family": 5,
+      "dominant_name": "Fischer-Koch S",
+      "physical_designs": 124
+    },
+    {
+      "dominant_family": 6,
+      "dominant_name": "Schoen FRD",
+      "physical_designs": 44
+    },
+    {
+      "dominant_family": 7,
+      "dominant_name": "PMY",
+      "physical_designs": 40
+    }
+  ],
+  "status": "PASS"
+}

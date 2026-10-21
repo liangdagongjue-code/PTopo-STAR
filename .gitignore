@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+WORK/
+RUN/
+restored/
+formal_results/
+results_full/
+results_paper_v1/

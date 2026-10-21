@@ -1,0 +1,7 @@
+method,method_label,pooled_family_macro_nrmse,negative_transfer_rate
+masked_only_fusion,Masked-only fusion,0.5585502383608959,0.16
+periodic_only_fusion,Periodic-only fusion,0.6002677537680329,0.18000000000000002
+topology_only_fusion,Topology-only fusion,0.5893360368401018,0.13583333333333333
+ptopo_fusion,PTopo fusion,0.4951430699596804,0.08125
+ptopo_residual_ungated,Ungated residual,0.4951430699596804,0.08125
+ptopo_star,PTopo-STAR,0.4953042213490972,0.06583333333333334

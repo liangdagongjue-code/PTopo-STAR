@@ -1,0 +1,172 @@
+PTopo-STAR data dictionary
+Version 1.0.0
+
+Units: stress and peak stress are MPa; dissipated energy density is MJ/m^3.
+Strain is dimensionless. NRMSE and normalized distance/disagreement are dimensionless.
+seed: encoder seed; held_out_family: 0-based primitive index; shots: 0,1,2,4;
+repeat: support draw; sample_id: unchanged upstream record identifier;
+gate: coefficient applied to the augmented-minus-explicit prediction difference.
+normalizer_sd: reporting-scale standard deviation used in the paper.
+
+Modified schemas (source measurements restored locally by the tools script):
+formal_results/aggregate/curve_metrics.csv.gz : omitted official_energy, true_peak
+formal_results/aggregate/scalar_predictions.csv.gz : omitted y_true, error
+formal_results/downstream_shards/fold0_seed20260901_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold0_seed20260902_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold0_seed20260903_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold0_seed20260904_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold0_seed20260905_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold1_seed20260901_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold1_seed20260902_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold1_seed20260903_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold1_seed20260904_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold1_seed20260905_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold2_seed20260901_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold2_seed20260902_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold2_seed20260903_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold2_seed20260904_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold2_seed20260905_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold3_seed20260901_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold3_seed20260902_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold3_seed20260903_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold3_seed20260904_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold3_seed20260905_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold4_seed20260901_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold4_seed20260902_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold4_seed20260903_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold4_seed20260904_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold4_seed20260905_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold5_seed20260901_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold5_seed20260902_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold5_seed20260903_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold5_seed20260904_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold5_seed20260905_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold6_seed20260901_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold6_seed20260902_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold6_seed20260903_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold6_seed20260904_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold6_seed20260905_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold7_seed20260901_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold7_seed20260902_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold7_seed20260903_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold7_seed20260904_curve_predictions_repeat0.npz : omitted truth, strain
+formal_results/downstream_shards/fold7_seed20260905_curve_predictions_repeat0.npz : omitted truth, strain
+derived_data/figure4/selected_stress_traces.csv : omitted strain, measured_stress_mpa
+
+Curve NPZ: metadata structured array and predictions float32 [records,120].
+Selected stress-trace CSV: point is a 1-based index from 1 to 120.
+Embedding NPZ: target_ids [274] and embeddings float32 [274,64].
+Checkpoint PT: model state, descriptor mean/std, config, variant, held-out family and seed.
+
+CSV columns:
+derived_data/endpoint_verification.csv: sample_id, dominant_family, dominant_name, absolute_difference, relative_difference, trace_points
+derived_data/family_counts.csv: dominant_family, dominant_name, physical_designs
+derived_data/family_effects_pooled_1_2_4_shot.csv: task, method_star, held_out_family, held_out_name, nrmse_star, method_explicit, nrmse_explicit, delta_nrmse
+derived_data/family_metrics.csv: task, method, shots, held_out_family, held_out_name, nrmse_global_sd, nmae_global_sd, spearman, algorithm_runs
+derived_data/family_omission_sensitivity.csv: held_out_family, family, ptopo_star, explicit_ridge, paired_difference, effect_without_this_family
+derived_data/figure4/gate_points.csv: held_out_family, sample_id, gate, distance, uncertainty, delta_error
+derived_data/figure4/selected_stress_traces.csv: family, sample_id, seed, shots, method, point, predicted_stress_mpa
+derived_data/gate_selection_frequencies.csv: task, scale, lambda_distance, lambda_uncertainty, selections, mean_source_negative_transfer, mean_selected_gate
+derived_data/gate_selections.csv: fold, held_out_name, seed, task, scale, lambda_distance, lambda_uncertainty, inner_macro_rmse, inner_family_se, base_macro_rmse, ungated_macro_rmse, source_negative_transfer_rate, selected_mean_gate, eligible_candidates
+derived_data/inference.csv: comparison_family, task, shots, method, reference, effect_nrmse_method_minus_reference, ci95_low, ci95_high, family_exact_sign_flip_p, holm_p, families, physical_samples
+derived_data/negative_transfer.csv: task, shots, method, families, negative_transfer_rate, between_family_sd
+derived_data/pooled_outcomes_independent_review.csv: method, energy_dissipation, peak_stress, stress_curve
+derived_data/pretraining_manifests.csv: held_out_family, held_out_name, seed, device, completed_variants, strict_geometry_unseen, maximum_held_out_pretraining_weight
+derived_data/source_manifest.csv: dataset_id, role, source_url, version_or_commit, archive_sha256, license_status, local_status, allowed_in_pretraining, notes
+derived_data/summary_family_bootstrap.csv: task, method, shots, families, macro_nrmse, ci95_low, ci95_high, interval_type
+derived_data/summary_metrics.csv: task, method, shots, families, macro_nrmse, between_family_nrmse_sd, macro_nmae, macro_spearman
+derived_data/support_test_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+derived_data/table1_family_counts.csv: held_out_family, held_out_name, physical_samples
+derived_data/table2_energy_main.csv: method, method_label, 1, 2, 4
+derived_data/table3_ablation_gate.csv: method, method_label, pooled_family_macro_nrmse, negative_transfer_rate
+derived_data/table_primary_inference.csv: comparison_family, task, shots, method, reference, effect_nrmse_method_minus_reference, ci95_low, ci95_high, family_exact_sign_flip_p, holm_p, families, physical_samples
+derived_data/training_history.csv.gz: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+FILE_MANIFEST.csv: path, bytes, sha256
+formal_results/aggregate/curve_metrics.csv.gz: seed, held_out_family, held_out_name, task, shots, repeat, n_source, n_support, n_test, method, sample_id, curve_rmse, curve_nrmse_global_sd, curve_mae, predicted_curve_energy, curve_energy_absolute_error, predicted_curve_peak, curve_peak_absolute_error, normalizer_sd, gate, distance_norm, uncertainty_norm
+formal_results/aggregate/family_metrics.csv: task, method, shots, held_out_family, held_out_name, nrmse_global_sd, nmae_global_sd, spearman, algorithm_runs
+formal_results/aggregate/inference.csv: comparison_family, task, shots, method, reference, effect_nrmse_method_minus_reference, ci95_low, ci95_high, family_exact_sign_flip_p, holm_p, families, physical_samples
+formal_results/aggregate/negative_transfer.csv: task, shots, method, families, negative_transfer_rate, between_family_sd
+formal_results/aggregate/run_metrics.csv: task, method, shots, held_out_family, held_out_name, seed, repeat, n_test, nrmse_global_sd, nmae_global_sd, spearman, energy_mae, peak_mae
+formal_results/aggregate/scalar_predictions.csv.gz: seed, held_out_family, held_out_name, task, shots, repeat, n_source, n_support, n_test, method, sample_id, y_pred, absolute_error, squared_error, normalizer_sd, gate, distance_norm, uncertainty_norm
+formal_results/aggregate/summary_family_bootstrap.csv: task, method, shots, families, macro_nrmse, ci95_low, ci95_high, interval_type
+formal_results/aggregate/summary_metrics.csv: task, method, shots, families, macro_nrmse, between_family_nrmse_sd, macro_nmae, macro_spearman
+formal_results/downstream_shards/fold0_seed20260901_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold0_seed20260902_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold0_seed20260903_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold0_seed20260904_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold0_seed20260905_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold1_seed20260901_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold1_seed20260902_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold1_seed20260903_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold1_seed20260904_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold1_seed20260905_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold2_seed20260901_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold2_seed20260902_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold2_seed20260903_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold2_seed20260904_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold2_seed20260905_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold3_seed20260901_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold3_seed20260902_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold3_seed20260903_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold3_seed20260904_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold3_seed20260905_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold4_seed20260901_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold4_seed20260902_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold4_seed20260903_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold4_seed20260904_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold4_seed20260905_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold5_seed20260901_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold5_seed20260902_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold5_seed20260903_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold5_seed20260904_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold5_seed20260905_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold6_seed20260901_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold6_seed20260902_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold6_seed20260903_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold6_seed20260904_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold6_seed20260905_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold7_seed20260901_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold7_seed20260902_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold7_seed20260903_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold7_seed20260904_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/downstream_shards/fold7_seed20260905_splits.csv: held_out_family, held_out_name, shots, repeat, support_ids, test_ids, n_source, n_support, n_test
+formal_results/pretraining/fold_0/seed_20260901/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_0/seed_20260902/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_0/seed_20260903/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_0/seed_20260904/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_0/seed_20260905/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_1/seed_20260901/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_1/seed_20260902/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_1/seed_20260903/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_1/seed_20260904/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_1/seed_20260905/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_2/seed_20260901/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_2/seed_20260902/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_2/seed_20260903/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_2/seed_20260904/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_2/seed_20260905/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_3/seed_20260901/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_3/seed_20260902/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_3/seed_20260903/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_3/seed_20260904/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_3/seed_20260905/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_4/seed_20260901/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_4/seed_20260902/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_4/seed_20260903/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_4/seed_20260904/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_4/seed_20260905/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_5/seed_20260901/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_5/seed_20260902/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_5/seed_20260903/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_5/seed_20260904/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_5/seed_20260905/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_6/seed_20260901/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_6/seed_20260902/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_6/seed_20260903/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_6/seed_20260904/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_6/seed_20260905/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_7/seed_20260901/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_7/seed_20260902/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_7/seed_20260903/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_7/seed_20260904/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
+formal_results/pretraining/fold_7/seed_20260905/training_history.csv: variant, held_out_family, held_out_name, seed, epoch, loss, reconstruction_loss, topology_loss, periodic_consistency_loss, learning_rate
